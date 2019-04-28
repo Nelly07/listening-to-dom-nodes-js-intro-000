@@ -36,4 +36,3 @@ function bubble(e){
   for (let i =0; i < divis.lenght; i++){
     divs[i].addEventListener('click',bubble);
   }
-

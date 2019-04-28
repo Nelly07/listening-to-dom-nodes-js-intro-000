@@ -27,3 +27,13 @@ function bubble(e){
     divs[i].addEventListener('click',bubble);
   }
 }
+
+const divs=document.querySelectorAll('div');
+function bubble(e){
+  e.stopPropagation();
+  console.log(this.firstChild.nodeValue.trim()+'bubbled');
+}
+  for (let i =0; i < divis.lenght; i++){
+    divs[i].addEventListener('click',bubble);
+  }
+
